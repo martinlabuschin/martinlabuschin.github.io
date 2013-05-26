@@ -92,7 +92,7 @@ header img {
 #navigation .active {
   background: #1c5c76;
   color: #fff !important;
-  border-color: #123e50 !important;
+  border-color: #1c5c76 !important;
 }
 
 .general dt * {
