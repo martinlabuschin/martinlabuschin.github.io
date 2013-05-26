@@ -80,14 +80,19 @@ header img {
   padding: 5px 10px 4px 10px;
   text-decoration: none;
   background: #fff;
-  -webkit-box-shadow: 0 1px 1px #888;
-  -moz-box-shadow: 0 1px 1px #888;
-  box-shadow: 0 1px 1px #888;
+  border: 1px solid #cecece;
   color: #444;
 }
 
 #navigation a:hover {
   color: #000;
+  border: 1px solid #777;
+}
+
+#navigation .active {
+  background: #1c5c76;
+  color: #fff !important;
+  border-color: #123e50 !important;
 }
 
 .general dt * {
