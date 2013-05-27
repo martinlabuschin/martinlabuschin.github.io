@@ -83,6 +83,23 @@ header img {
   color: #444;
 }
 
+#navigation .contact_link {
+  float: right;
+  margin-right: 0 !important;
+}
+
+#navigation .contact_link a {
+  background: #7ab800;
+  border-color: #7ab800;
+  color: #fff;
+}
+
+#navigation .contact_link a:hover, #navigation .contact_link a.active {
+  background: #fff;
+  border-color: #7ab800 !important;
+  color: #7ab800 !important;
+}
+
 #navigation a:hover {
   color: #000;
   border: 1px solid #777;
@@ -132,10 +149,14 @@ header img {
   float: right;
 }
 
-.detail p {
+.detail p, .detail .text_like {
   font-family: Verdana;
   font-size: 14px;
   color: #555;
+}
+
+.social_list {
+  float: right;
 }
 
 .skills {
@@ -154,4 +175,11 @@ header img {
 
 .clear {
   clear: both;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 50px;
 }
