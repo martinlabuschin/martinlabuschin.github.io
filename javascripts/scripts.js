@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $(".section").hide();
-  
   $("#navigation a").click(function(){
     $(".section").slideUp("fast");
     $($(this).attr("href")).slideDown("fast");
@@ -8,6 +7,5 @@ $(document).ready(function(){
     $(this).addClass("active");
     return false;
   });
-  
   $("#navigation a:first").trigger("click");
 });
