@@ -89,15 +89,19 @@ header img {
 }
 
 #navigation .contact_link a {
-  background: #7ab800;
-  border-color: #7ab800;
+  border-color: #609100;
   color: #fff;
+  text-shadow: 0 -2px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(top, #8ad000 0%, #609100 100%);
+  background: -moz-linear-gradient(top, #8ad000 0%, #609100 100%);
+  background: -webkit-linear-gradient(top, #8ad000 0%, #609100 100%);
 }
 
 #navigation .contact_link a:hover, #navigation .contact_link a.active {
   background: #fff;
   border-color: #7ab800 !important;
   color: #7ab800 !important;
+  text-shadow: none;
 }
 
 #navigation a:hover {
