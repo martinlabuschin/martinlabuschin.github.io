@@ -55,12 +55,11 @@ header img {
 }
 
 .general {
-  width: 290px;
-  float: left;
+  width: 270px;
+  float: right;
   font-size: 14px;
-}
-
-.detail {
+  padding-left: 40px;
+  padding-top: 61px;
 }
 
 #navigation {
@@ -141,12 +140,12 @@ header img {
 
 .skills {
   float: left;
-  width: 590px;
+  width: 900px;
 }
 
 .skillset {
   float: left;
-  width: 195px;
+  width: 300px;
 }
 
 .detail ul {
