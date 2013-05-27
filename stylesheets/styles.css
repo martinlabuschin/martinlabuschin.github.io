@@ -42,6 +42,10 @@ header {
   margin: 50px auto;
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
 header img {
   height: 100px;
   border-radius: 100px;
@@ -60,7 +64,7 @@ header img {
   float: right;
   font-size: 14px;
   padding-left: 40px;
-  padding-top: 61px;
+  padding-top: 81px;
 }
 
 #navigation {
@@ -124,6 +128,10 @@ header img {
 .general dd {
   margin-bottom: 1em;
   padding-left: 1em;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 .detail h2, .detail h3, .detail p {
