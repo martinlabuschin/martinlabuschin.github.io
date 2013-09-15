@@ -16,6 +16,9 @@ jQuery(document).ready(function(){
 });
 
 function resize_height() {
-  jQuery(".masthead").css("height", ((jQuery(window).height()/100)*70)+"px");
-  jQuery("navigation ul").css("top", ((jQuery(".masthead").height()/100)*50)+"px");
+  
+  total_height = ((jQuery(window).height()/100)*80);
+  
+  jQuery(".masthead .row").css("height", (total_height)+"px");
+  jQuery(".masthead .row").css("padding-top", (total_height/2)+"px");
 }

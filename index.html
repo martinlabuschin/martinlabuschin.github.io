@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Martin Labuschin</title>
+    <title>Martin Labuschin &mdash; Web-Application Developer &amp; User Interface Expert</title>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/stylesheets/styles.less" rel="stylesheet/less" media="screen" />
     <link href="/favicon.ico" rel="image/x-icon" />
@@ -12,12 +12,13 @@
       <div class="container">
         <header class="row">
           <div class="col-md-8">
+            <img src="/material/martinlabuschin.jpg" alt="Martin Labuschin" title="Martin Labuschin" />
             <h1>Martin Labuschin</h1>
             <p>Web-Application Developer &amp; User Interface Expert</p>
           </div>
           <navigation class="col-md-4">
             <ul id="navbar">
-              <li class="active"><a href="#home">Home</a></li>
+              <li><a href="#home">Home</a></li>
               <li><a href="#prologue">Prologue</a></li>
               <li><a href="#development">Development</a></li>
               <li><a href="#usability">Usability</a></li>
@@ -41,7 +42,7 @@
             <h2>Development</h2>
             <ul class="row">
               <li class="col-md-4">
-                <h3>Frontend</h3>
+                <h3 class="frontend">Frontend</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -56,7 +57,7 @@
                 </ul>
               </li>
               <li class="col-md-4">
-                <h3>Backend</h3>
+                <h3 class="backend">Backend</h3>
                 <ul>
                   <li>Ruby</li>
                   <li>Ruby on Rails</li>
@@ -70,7 +71,7 @@
                 </ul>
               </li>
               <li class="col-md-4">
-                <h3>Infrastructure</h3>
+                <h3 class="infrastructure">Infrastructure</h3>
                 <ul>
                   <li>Git</li>
                   <li>Capistrano</li>
@@ -86,16 +87,17 @@
         </section>
       </div>
     </div>
+    <div class="container">
       <section id="usability" class="row">
         <div class="col-md-8 col-md-offset-2">
           <h2>Usability</h2>
-          <p><strong>The user interface of an application is the actual product you are selling.</strong></p>
+          <p><strong>The user interface of your application is the actual product you are selling.</strong></p>
 
           <p>Usability isn't applied at the end. It is to be considered from the start. It's a large part of the hole product design. A good UI doesn't make its user think. It solves problems, so its user doesn't have to. Simple interfaces are easy to use, easy to understand, intuitive, fast loading, and easy to maintain.</p>
-          
-          <div class="row">
+          <!--
+          <div class="row spacer">
             <div class="col-md-6">
-              <img src="/material/context1.png" />
+              <img src="/material/context1.png" class="negative" />
             </div>
             <div class="col-md-6">
               <p>Salutation and country are both a finite set of options. But this doesn’t mean the way of presenting them should be the same. Just because the UI would be more consistent, but the experience could be richer.</p>
@@ -103,7 +105,7 @@
           </div>
           <div class="row">
             <div class="col-md-6">
-              <img src="/material/context2.png" />
+              <img src="/material/context2.png" class="positive" />
             </div>
             <div class="col-md-6">
               <p><strong>Context over consistency.</strong></p>
@@ -112,9 +114,9 @@
             </div>
           </div>
           <br />
-          <div class="row">
+          <div class="row spacer">
             <div class="col-md-6">
-              <img src="/material/label1.png" />
+              <img src="/material/label1.png" class="negative" />
             </div>
             <div class="col-md-6">
               <p>Even though the copywriting is clear, the link isn’t placed poorly. While skimming a page, the user tends to identify the links first. In the first case, he/she has to figure out, what “here” acutally is.</p>
@@ -123,18 +125,18 @@
           
           <div class="row">
             <div class="col-md-6">
-              <img src="/material/label2.png" />
+              <img src="/material/label2.png" class="positive" />
             </div>
             <div class="col-md-6">
               <p><strong>Link text should label its destination.</strong> Even if taken out of context.</p>
             </div>
           </div>
-          <div class="row">
+          <div class="row spacer">
             <div class="col-md-12">
-              <img src="/material/state.png" />
+              <img src="/material/state.png" class="neutral" />
             </div>
           </div>
-          <div class="row">
+          <div class="row tiny_spacer">
             <div class="col-md-6">
               <p><strong>Show state instead of just display it.</strong> It helps the user to identify active or inactive records and/or wether action should be taken or not.</p>
             </div>
@@ -147,13 +149,26 @@
               </ol>
             </div>
           </div>
+            -->
         </div>
       </section>
-      <section id="contact" class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2>Contact</h2>
-        </div>
-      </section>
+    </div>
+    <div class="odd">
+      <div class="container">
+        <section id="contact" class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h2>Contact</h2>
+            <ul>
+              <li><a href="http://twitter.com/labuschin" class="twitter"></a></li>
+              <li><a href="http://facebook.com/labuschin" class="facebook"></a></li>
+              <li><a href="http://github.com/martinlabuschin" class="github"></a></li>
+              <li><a href="https://plus.google.com/115574170574793051660" class="google"></a></li>
+              <li><a href="http://www.linkedin.com/pub/martin-labuschin/32/642/4a6" class="linkedin"></a></li>
+              <li><a href="callto:labuschin" class="skype"></a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.4.1/less.min.js"></script>
