@@ -179,13 +179,23 @@ section {
     float: left;
     margin: 0 5px 0 5px;
     padding: 0;
+      display:block;
+      height: 60px;
+      width: 60px;
   }
   
-  li a {
-    display:block;
-    height: 60px;
-    width: 60px;
-    background: url(/images/social.png) 0 0 no-repeat;
+  li {
+    a {
+      display:block;
+      height: 60px;
+      width: 60px;
+      background: #ebeae8 url(/images/social.png) 0 0 no-repeat;
+      border-radius: 30px;
+    
+      &:hover {
+        background-color: #fff;
+      }
+    }
   }
   
   .facebook {
