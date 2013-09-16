@@ -1,5 +1,4 @@
 jQuery(document).ready(function(){
-  jQuery(window).stellar();
   
   //resize_height();
   
