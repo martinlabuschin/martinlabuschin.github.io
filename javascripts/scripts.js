@@ -1,10 +1,10 @@
 jQuery(document).ready(function(){
   jQuery(window).stellar();
   
-  resize_height();
+  //resize_height();
   
   $(window).resize(function(){
-    resize_height();
+    //resize_height();
   });
   
   jQuery("navigation a").click(function() {
