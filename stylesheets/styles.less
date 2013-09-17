@@ -98,6 +98,30 @@ section {
   background: #ebeae8;
 }
 
+#service {
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  p {
+    margin-right: 10px;
+  }
+
+  .websites, .uid, .webapps {
+    color: #ebeae8;
+    background: #777168;
+    padding: 20px;
+  }
+}
+
 #development {
   ul, li {
     margin: 0;
@@ -115,22 +139,10 @@ section {
     margin-right: 10px;
   }
 
-  .frontend {
+  .frontend, .backend, .infrastructure {
     color: #ebeae8;
-    background: #777168 url(/images/frontend.png) 15px 10px no-repeat;
-    padding: 20px 20px 20px 75px;
-  } 
-  
-  .backend {
-    color: #ebeae8;
-    background: #777168 url(/images/backend.png) 15px 10px no-repeat;
-    padding: 20px 20px 20px 75px;
-  } 
-  
-  .infrastructure {
-    color: #ebeae8;
-    background: #777168 url(/images/infrastructure.png) 15px 10px no-repeat;
-    padding: 20px 20px 20px 75px;
+    background: #777168;
+    padding: 20px;
   } 
 }
 
@@ -176,9 +188,9 @@ section {
     float: left;
     margin: 0 5px 0 5px;
     padding: 0;
-      display:block;
-      height: 60px;
-      width: 60px;
+    display:block;
+    height: 60px;
+    width: 60px;
   }
   
   li {
@@ -188,6 +200,8 @@ section {
       width: 60px;
       background: #ebeae8 url(/images/social.png) 0 0 no-repeat;
       border-radius: 30px;
+      text-indent: -5000em;
+      overflow: hidden;
     
       &:hover {
         background-color: #fff;
