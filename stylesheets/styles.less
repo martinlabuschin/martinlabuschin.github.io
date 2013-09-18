@@ -26,20 +26,6 @@
     color: #3f4a56;
     font-weight: bold;
   }
-
-  @media (max-width:768px) { 
-    h1 {
-      text-align: center;
-      margin-top: 1em !important;
-      margin-bottom: 0.8em;
-      font-size: 20px !important;
-    }
-
-    p {
-      text-align: center;
-      font-size: 15px !important;
-    }
-  }
   
   h1 {
     margin-top: 2em;
@@ -82,35 +68,6 @@
         }
 
       }  
-    }
-  }
-}
-
-@media (max-width:768px) { 
-  section {
-    padding: 70px 0 !important;
-
-    p {
-      font-size: 15px !important;
-    }
-
-
-    h2 {
-      font-size: 20px !important;
-      margin-bottom: 1em !important;
-    }
-
-    h3 {
-      font-size: 15px !important;
-    }
-
-    &#development {
-      li {
-        font-size: 15px !important;
-        float: left; 
-        margin-right: 20px;
-        white-space: nowrap;
-      }
     }
   }
 }
@@ -272,9 +229,31 @@ section {
 }
 
 @media (max-width:768px) { 
+  .masthead {
+    background-size: 200%;
+
+    h1 {
+      text-align: center;
+      margin-top: 1em !important;
+      margin-bottom: 0.8em;
+      font-size: 20px !important;
+    }
+
+    p {
+      text-align: center;
+      font-size: 15px !important;
+    }
+
+  }
+
   .row {
     padding: 30px 0 !important;
     margin: 0 !important;
+
+    .row {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
   }
 
   .image img {
@@ -284,9 +263,44 @@ section {
 
   #contact {
     ul {
+      position: relative;
+      margin-top: 2em;
+      left: -10px;
       width: 280px;
       li {
         margin: 5px !important;
+      }
+    }
+  }
+
+  section {
+    padding: 70px 0 !important;
+
+    p {
+      font-size: 15px !important;
+    }
+
+
+    h2 {
+      font-size: 20px !important;
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    h3 {
+      font-size: 15px !important;
+    }
+
+    .col3 {
+      margin-top: 2em;
+    }
+
+    &#development {
+      li {
+        font-size: 15px !important;
+        float: left; 
+        margin-right: 20px;
+        white-space: nowrap;
       }
     }
   }
