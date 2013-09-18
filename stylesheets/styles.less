@@ -48,18 +48,26 @@
       font-size: 15px;
       font-weight: bold;
       margin-top: -40px;
-      //background: rgba(255,255,255,0.3);
       li {
         a {
           color: #6e685f;
           display: block;
           margin-bottom: 15px;
+          padding: 0;
+
+          &:hover {
+            text-decoration: none;
+            color: #000;
+            background: none;
+          }
         } 
         &.active {
           a {
+            text-decoration: none;
             color: #d70113;
           }
         }
+
       }  
     }
   }
