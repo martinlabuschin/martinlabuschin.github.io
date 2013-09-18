@@ -6,7 +6,6 @@
   background: url("/images/header.png") 50% 50% repeat-x;
 
   .row {
-    height: auto;
     position: relative;
     padding: 155px 0;
   }
@@ -31,10 +30,14 @@
   @media (max-width:768px) { 
     h1 {
       text-align: center;
+      margin-top: 1em !important;
+      margin-bottom: 0.8em;
+      font-size: 20px !important;
     }
 
     p {
       text-align: center;
+      font-size: 15px !important;
     }
   }
   
@@ -83,12 +86,34 @@
   }
 }
 
-/*@media (max-width:768px) { 
+@media (max-width:768px) { 
   section {
-    padding-left: 70px !important;
-    padding-right: 70px !important;
+    padding: 70px 0 !important;
+
+    p {
+      font-size: 15px !important;
+    }
+
+
+    h2 {
+      font-size: 20px !important;
+      margin-bottom: 1em !important;
+    }
+
+    h3 {
+      font-size: 15px !important;
+    }
+
+    &#development {
+      li {
+        font-size: 15px !important;
+        float: left; 
+        margin-right: 20px;
+        white-space: nowrap;
+      }
+    }
   }
-}*/
+}
 
 section {
   
@@ -245,3 +270,25 @@ section {
     background-position: -300px 0;
   }
 }
+
+@media (max-width:768px) { 
+  .row {
+    padding: 30px !important;
+    margin: 0 !important;
+  }
+
+  .image img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #contact {
+    ul {
+      width: 280px;
+      li {
+        margin: 5px !important;
+      }
+    }
+  }
+}
+
