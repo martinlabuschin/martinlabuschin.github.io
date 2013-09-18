@@ -1,5 +1,7 @@
 jQuery(document).ready(function(){
-  $(window).stellar();
+  if(!Modernizr.touch){ 
+    jQuery.stellar();
+  }
   jQuery('body').scrollspy({ target: '#navbar-wrapper' });
 
   jQuery("navigation a").click(function() {
