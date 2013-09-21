@@ -7,9 +7,15 @@
 }
 
 .masthead {
-  background: #a7a4a2 url("/images/background.gif") left -140px;
-  background-size: 100%;
+  background: #a7a4a2;
   background-attachment: fixed;
+
+  .header_wrapper {
+    background: #a7a4a2 url("/images/background.gif") left top;
+    background-size: 100%;
+    background-attachment: fixed;
+    opacity: 0;
+  }
 
   .row {
     position: relative;
@@ -284,6 +290,10 @@ section {
   .masthead {
     background-size: 180%;
     background: #a7a4a2 url("/images/background.gif") top left;
+
+    .header_wrapper {
+      opacity: 1;
+    }
 
     .logo {
       position: static;
