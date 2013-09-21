@@ -15,7 +15,7 @@ jQuery(document).ready(function(){
     jQuery("body").append(jQuery("header img").clone().addClass("clone").css("left", logo_left+20));
     jQuery('header img').css("opacity", 0);
 
-    jQuery("header img").click(function() {
+    jQuery("header img, .clone").click(function() {
       jQuery('html, body').animate({
         scrollTop: 0
       }, 'slow');
