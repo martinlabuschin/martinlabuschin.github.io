@@ -5,10 +5,15 @@ jQuery(document).ready(function(){
 
     var header = jQuery('header');
     var offset = header.offset();
-
     var left = offset.left;
     jQuery("header .logo").css("left", left);
 
+
+    var logo = jQuery('header img');
+    var logo_offset = header.offset();
+    var logo_left = logo_offset.left;
+    jQuery("body").append(jQuery("header img").clone().addClass("clone").css("left", logo_left+20));
+    jQuery('header img').css("opacity", 0);
 
     jQuery("header img").click(function() {
       jQuery('html, body').animate({
@@ -27,7 +32,7 @@ jQuery(document).ready(function(){
 
     var divs = $('h1');
     $(window).scroll(function(){
-       if($(window).scrollTop()<100){
+       if($(window).scrollTop()<10){
              divs.fadeIn("fast");
        } else {
              divs.fadeOut("fast");
