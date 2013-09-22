@@ -119,6 +119,37 @@
   }
 }
 
+dl {
+  font-size: 20px;
+  dt {
+    width: 29%;
+    float: left;
+    clear: left;
+
+    dfn {
+      font-style: normal !important;
+      color: @headline_text_color;
+    }
+  }
+
+  dd {
+    padding-left: 31%;
+    margin-bottom: 2em;
+    color: @default_text_color;
+
+    &.last {
+      margin-bottom: 0;
+    }
+
+    span {
+      padding-bottom: 0.5em;
+      display:block;
+    }
+  }
+}
+
+
+
 .first {
   background: url("/images/down.png") 50% top repeat-x;
   margin-top: -30px;
@@ -372,6 +403,10 @@ section {
     padding: 70px 0 !important;
 
     p {
+      font-size: 15px !important;
+    }
+
+    dl {
       font-size: 15px !important;
     }
 
