@@ -1,4 +1,6 @@
 jQuery(document).ready(function(){
+  jQuery('header img').show();
+
   if(!Modernizr.touch){ 
     jQuery.stellar();
     jQuery('header img').css("opacity", 0);
