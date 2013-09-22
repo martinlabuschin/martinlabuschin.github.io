@@ -1,4 +1,5 @@
 jQuery(document).ready(function(){
+  jQuery('header img').attr("style","");
   jQuery('header img').show();
 
   if(!Modernizr.touch){ 
