@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
     var logo = jQuery('header img');
     var logo_offset = logo.offset();
     var logo_left = logo_offset.left;
-    jQuery("body").append(jQuery("header img").clone().addClass("clone").css("left", logo_left));
+    jQuery("body").append(jQuery("header img").clone().addClass("clone").css("left", logo_left-40));
     jQuery('header img').css("opacity", 0);
 
     jQuery("header img, .clone").click(function() {

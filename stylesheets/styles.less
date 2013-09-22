@@ -69,9 +69,11 @@
       color: #fff;
       text-transform: uppercase;
       float: left;
-      margin: 0.4em 0 0 1em;
+      margin: 0.4em 0 0 0;
       padding: 0;
       text-shadow: 0 0 20px rgba(0,0,0,0.5);
+      position: relative;
+      left: -30px;
 
       span {
         font-weight: normal;
@@ -303,7 +305,7 @@ section {
 
 @media (max-width:768px) { 
   .masthead {
-    background-size: 270% !important;
+    background-size: 1000px !important;
     background-attachment: scroll;
     background: #a7a4a2 url("/images/background.gif") 50% 50% no-repeat !important;
 
@@ -319,6 +321,7 @@ section {
         margin-top: -25px;
         text-shadow: 0 0 5px rgba(0,0,0,0.7);
         font-size: 14px;
+        position: static;
 
         span {
           padding-left: 0;
