@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
       jQuery(".prologue").delay(500).animate({opacity: 1, top: 0},1000);
     });
 
-    var divs = $('h1');
+    var divs = $('h1, .jump_to_contact');
     $(window).scroll(function(){
        if($(window).scrollTop()<10){
              divs.fadeIn("fast");
@@ -36,7 +36,15 @@ jQuery(document).ready(function(){
              divs.fadeOut("fast");
        }
     });
-  } 
+  }
+  
+  jQuery(".jump_to_contact").click(function() {
+    jQuery('html, body').animate({
+      scrollTop: $($(this).attr("href")).offset().top
+    }, 'fast');
+    return false;
+  });
+
 });
 
 function reposition_logo() {
@@ -48,5 +56,6 @@ function reposition_logo() {
   var logo_offset = logo.offset();
   var logo_left = logo_offset.left;
   jQuery(".clone").css("left", logo_left-40);
+  jQuery(".jump_to_contact").css("right", left);
   jQuery(".clone").css("opacity", 1);
 }
