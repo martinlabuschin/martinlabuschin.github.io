@@ -202,7 +202,7 @@ section {
   }
 }
 
-#service, #development {
+#service, #development, #work {
   ul, li {
     margin: 0;
     padding: 0;
@@ -215,6 +215,15 @@ section {
     color: @strong_text_color;
     padding: 20px 0;
     border-bottom: 2px solid lighten(@strong_text_color, 10%);
+
+    span {
+      font-size: 15px;
+    }
+  }
+
+  img {
+    width: 100%-5px;
+    margin-top: -10px;
   }
   
   p {
@@ -225,6 +234,27 @@ section {
   
   li li {
     color: @default_text_color;
+  }
+}
+
+#work {
+  li {
+    li {
+      font-size: 15px;
+      span {
+        color: @headline_text_color;
+        width: 100%-5px;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        border-bottom: 2px solid lighten(@headline_text_color, 20%);
+      }
+    }
+  }
+  h3 {
+    border-bottom: none;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -454,13 +484,28 @@ section {
       margin-top: 2em;
     }
 
-    &#development {
+    &#development, &#work {
 
       li {
         font-size: 15px !important;
         float: left; 
         margin-right: 20px;
-        white-space: nowrap;
+
+        img {
+          width: 100%;
+        }
+
+        &.type {
+          width: 100%+5px;
+          display: block;
+        }
+      }
+    }
+
+    &#work {
+      li {
+        float: none !important;
+        padding-bottom: 8px;
       }
     }
   }
