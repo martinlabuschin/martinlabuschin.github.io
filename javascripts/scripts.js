@@ -21,10 +21,10 @@ jQuery(document).ready(function(){
     });
 
     var _image = new Image();
-    _image.src = "http://martinlabuschin-github-page.s3.amazonaws.com/background.jpg";
+    _image.src = "/assets/background.jpg";
 
     jQuery(_image).load(function () {
-      jQuery('.header_wrapper').animate({ opacity: 1 }, { duration: 1000 });
+      jQuery('.header_wrapper').delay(500).animate({ opacity: 1 }, { duration: 1000 });
       jQuery(".prologue").delay(500).animate({opacity: 1, top: 0},1000);
     });
 
