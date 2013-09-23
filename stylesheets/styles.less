@@ -220,6 +220,11 @@ section {
       font-size: 15px;
     }
   }
+
+  img {
+    width: 100%-5px;
+    margin-top: -10px;
+  }
   
   p {
     margin-right: 20px;
@@ -236,7 +241,20 @@ section {
   li {
     li {
       font-size: 15px;
+      span {
+        color: @strong_text_color;
+        width: 100%-5px;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        border-bottom: 2px solid lighten(@strong_text_color, 10%);
+      }
     }
+  }
+  h3 {
+    border-bottom: none;
+    margin-bottom: 0 !important;
   }
 }
 
