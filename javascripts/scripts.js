@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
     });
 
     var _image = new Image();
-    _image.src = "http://martinlabuschin-github-page.s3.amazonaws.com/background.gif";
+    _image.src = "http://martinlabuschin-github-page.s3.amazonaws.com/background.jpg";
 
     jQuery(_image).load(function () {
       jQuery('.header_wrapper').animate({ opacity: 1 }, { duration: 1000 });
