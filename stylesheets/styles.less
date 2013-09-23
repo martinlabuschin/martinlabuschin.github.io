@@ -242,13 +242,13 @@ section {
     li {
       font-size: 15px;
       span {
-        color: @strong_text_color;
+        color: @headline_text_color;
         width: 100%-5px;
         display: block;
         padding-bottom: 5px;
         margin-bottom: 5px;
         margin-top: 5px;
-        border-bottom: 2px solid lighten(@strong_text_color, 10%);
+        border-bottom: 2px solid lighten(@headline_text_color, 20%);
       }
     }
   }
@@ -490,7 +490,22 @@ section {
         font-size: 15px !important;
         float: left; 
         margin-right: 20px;
-        white-space: nowrap;
+
+        img {
+          width: 100%;
+        }
+
+        &.type {
+          width: 100%+5px;
+          display: block;
+        }
+      }
+    }
+
+    &#work {
+      li {
+        float: none !important;
+        padding-bottom: 8px;
       }
     }
   }
