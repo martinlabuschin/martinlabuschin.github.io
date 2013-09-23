@@ -36,7 +36,15 @@ jQuery(document).ready(function(){
              divs.fadeOut("fast");
        }
     });
-  } 
+  }
+  
+  jQuery(".jump_to_contact").click(function() {
+    jQuery('html, body').animate({
+      scrollTop: $($(this).attr("href")).offset().top
+    }, 'fast');
+    return false;
+  });
+
 });
 
 function reposition_logo() {
