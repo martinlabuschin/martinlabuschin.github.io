@@ -189,6 +189,11 @@ section {
   position: relative;
   padding: 155px 0;
   font-weight: bold;
+
+  .col3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
   
   &#prologue {
     p {
@@ -295,10 +300,28 @@ section {
       border-color: #488412;
     }
   }
-  
-  li {
-    font-size: 20px;
-    color: @default_text_color;
+
+  ol {
+    list-style-type: upper-roman;
+    font-size: 15px;
+
+    li {
+      font-size: 20px;
+      color: @headline_text_color;
+      margin-bottom: 1em;
+
+      h3 {
+        font-size: 20px !important;
+        color: @headline_text_color;
+        font-weight: bold;
+        margin-top: 0;
+      }
+
+      p {
+        font-size: 15px;
+        color: @default_text_color;
+      }
+    }
   }
 } 
 
@@ -532,6 +555,18 @@ section {
       li {
         float: none !important;
         padding-bottom: 8px;
+      }
+    }
+
+    &#usability {
+      ol {
+        font-size: 15px ;
+        li {
+          font-size: 15px;
+          h3 {
+            font-size: 15px !important;
+          }
+        }
       }
     }
   }
