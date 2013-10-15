@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
     });
 
     var _image = new Image();
-    _image.src = "/assets/background.jpg";
+    _image.src = "http://martinlabuschin.com/assets/background.jpg";
 
     jQuery(_image).load(function () {
       jQuery('.header_wrapper').delay(500).animate({ opacity: 1 }, { duration: 1000 });
