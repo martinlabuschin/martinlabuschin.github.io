@@ -29,6 +29,27 @@ a:hover, a:focus, a:active {
   background: #a7a4a2;
   background-attachment: fixed;
 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover, a:focus {
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  .blog_link {
+    margin-left: 4em;
+    display: inline-block;
+    text-decoration: underline;
+    font-variant: small-caps;
+  }
+
+  .blog_link:hover, .blog_link:focus {
+    text-decoration: none;
+  }
+
   .jump_to_contact {
     color: #000;
     background: #fff;
@@ -568,6 +589,49 @@ section {
           }
         }
       }
+    }
+  }
+}
+
+body.blog {
+  .masthead .row {
+    padding: 100px 0 70px 0;
+  }
+
+  .post-meta {
+    font-weight: normal;
+    text-align: center;
+    display: block;
+    color: @default_text_color;
+  }
+
+  article {
+    margin-bottom: 155px;
+
+    h2 {
+      font-size: 200%;
+      color: @strong_text_color;
+    }
+
+    :nth-child(3) {
+      font-weight: bold;
+      color: @default_text_color;
+    }
+
+    p {
+      font-weight: normal;
+      color: @strong_text_color;
+      line-height: 1.7em;
+    }
+
+    h3 {
+      margin-top: 3em;
+      margin-bottom: 1em;
+      border-bottom: none !important;
+    }
+
+    hr {
+      margin: 4em 0;
     }
   }
 }
