@@ -1,115 +1,219 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Hey Tinder-Team, when will Tinder come to Windows Phone?</title>
-		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-		<link href="http://martinlabuschin.com/favicon.ico" rel="shortcut icon" />
-		<style>
-			body {
-				background: #fff;
-				color: #5c5c5c;
-				text-align: center;
-			}
-			h1 {
-				font-size: 35pt;
-				margin-top: 3em;
-				color: #878780;
-			}
-			h1 span {
-				color: #f75933;
-			}
-			.lead {
-				text-align: left;
-			}
-			.question {
-				text-align: center;
-				margin-bottom: 2em;
-			}
-			.row {
-				margin-top: 3em;
-				margin-bottom: 1em;
-			}
-			.lead strong  {
-				font-weight:normal;
-				color: #000;
-			}
-			.btn-primary, .btn-primary:hover, .btn-primary:focus {
-				background: #f75933;
-				border-color: #f75933;
-				padding: 10px 30px;
-				font-size: 16pt;
-			}
-			.btn-primary:hover, .btn-primary:focus {
-				background: #f75933;
-				border-color: #f75933;
-				box-shadow: 0px 0px 10px rgba(247, 89, 51, 0.5);
-				text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
-			}
-			.lead a {
-				color: #5c5c5c;
-				text-decoration: none;
-				border-bottom: 1px dotted #b1b2ae;
-			}
-			.lead a:hover {
-				color: #000;
-				text-decoration: none;
-				border-bottom: 1px solid #b1b2ae;
-			}
-			.announcement {
-				color: #878780;
-				margin-top: 1em;
-			}
-			@media (max-width: 480px) {
-				h1 {
-					font-size: 25pt;
-					margin-top: 1em;
-				}
-				.btn-primary, .btn-primary:hover, .btn-primary:focus {
-					font-size: 12pt;
-				}
-				.row {
-					margin-top: 2em;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<h1><span>Tinder</span>, please stop to ignore us.</h1>
-			<div class="row">
-				<p class="lead col-lg-8 col-lg-offset-2">In January 2014 <a href="https://twitter.com/RudyHuyn/status/426501195331403776">Rudy</a> <a href="https://twitter.com/RudyHuyn/status/426506242203201536">Huyn</a> <a href="https://twitter.com/RudyHuyn/status/427189543947599873">tweeted</a> to be working with you on an official Tinder for Windows Phone. Since then there has been no word from you about it. Even Rudy is waiting for news on the project.</p>
-			</div>			
-			<p class="lead question"><strong>So when will Tinder come to Windows Phone?</strong></p>
-			<a href="https://twitter.com/share?url=http%3A%2F%2Fmartinlabuschin.com%2Ftinder_on_windows_phone&amp;text=@tinder+When+will+%23tinder+come+to+Windows+Phone%3F" class="btn btn-primary">Demand Tinder to answer</a>
-			
-			<p class="announcement">We will start to monitor public demand soon.</p>
-		</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-		
-		<script type="text/javascript"> 
-			<!-- 
-			(function() { 
-			    if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) { 
-			        var msViewportStyle = document.createElement("style"); 
-			        msViewportStyle.appendChild( 
-			            document.createTextNode("@-ms-viewport{width:auto!important}") 
-			        ); 
-			        document.getElementsByTagName("head")[0].appendChild(msViewportStyle); 
-			    } 
-			})(); 
-			--> 
-		</script>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-10768351-5', 'martinlabuschin.com');
-			ga('send', 'pageview');
-		</script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hey Tinder-Team, when will Tinder come to Windows Phone?</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="http://martinlabuschin.com/favicon.ico" rel="shortcut icon" />
+    <style>
+      body {
+        background: #fff;
+        color: #5c5c5c;
+        text-align: center;
+      }
+      h1 {
+        font-size: 35pt;
+        margin-top: 3em;
+        color: #878780;
+      }
+      h2 {
+        color: #878780;
+        font-weight: normal;
+      }
+      h1 span {
+        color: #f75933;
+      }
+      .lead {
+        text-align: left;
+      }
+      .question {
+        text-align: center;
+        margin-bottom: 2em;
+      }
+      .row {
+        margin-top: 3em;
+        margin-bottom: 1em;
+      }
+      .lead strong  {
+        font-weight:normal;
+        color: #000;
+      }
+      .btn-primary, .btn-primary:hover, .btn-primary:focus {
+        background: #f75933;
+        border-color: #f75933;
+        padding: 10px 30px;
+        font-size: 16pt;
+      }
+      .btn-primary:hover, .btn-primary:focus {
+        background: #f75933;
+        border-color: #f75933;
+        box-shadow: 0px 0px 10px rgba(247, 89, 51, 0.5);
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+      }
+      .lead a {
+        color: #5c5c5c;
+        text-decoration: none;
+        border-bottom: 1px dotted #b1b2ae;
+      }
+      .lead a:hover {
+        color: #000;
+        text-decoration: none;
+        border-bottom: 1px solid #b1b2ae;
+      }
+      .announcement {
+        color: #878780;
+        margin-top: 1em;
+      }
+      .tweets {
+        list-style: none;
+        clear: left;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      .tweets li {
+        height: 48px;
+        width: 48px;
+        display: inline-block;
+        margin: 10px;
+      }
+      .tweets img {
+        height: 48px;
+        width: 48px;
+        border-radius: 48px;
+      }
+      .center {
+        margin-top: 2em;
+        text-align: center;
+      }
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 25pt;
+          margin-top: 1em;
+        }
+        .btn-primary, .btn-primary:hover, .btn-primary:focus {
+          font-size: 12pt;
+        }
+        .row {
+          margin-top: 2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><span>Tinder</span>, please stop to ignore us.</h1>
+      <div class="row">
+        <p class="lead col-lg-8 col-lg-offset-2">In January 2014 Windows Phone developer <a href="https://twitter.com/RudyHuyn/status/426501195331403776">Rudy</a> <a href="https://twitter.com/RudyHuyn/status/426506242203201536">Huyn</a> <a href="https://twitter.com/RudyHuyn/status/427189543947599873">tweeted</a> to be working with Tinder,&nbsp;Inc. on an official Tinder app for Windows Phone. Since then there has been no word from Tinder,&nbsp;Inc. about it. Even Rudy is waiting for news on the project.</p>
+      </div>      
+      <p class="lead question"><strong>So when will Tinder come to Windows Phone?</strong></p>
+      <a href="https://twitter.com/share?url=http%3A%2F%2Fmartinlabuschin.com%2Ftinder_on_windows_phone&amp;text=@tinder+When+will+%23tinder+come+to+Windows+Phone%3F" class="btn btn-primary">Demand Tinder to answer</a>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <p class="lead center">People who asked <a href="https://twitter.com/tinder">@tinder</a> about their plans on Windows Phone</p>
+          <ul class='tweets'>
+  <li>
+    <a href='https://twitter.com/techboardcz/status/445922380893130752'>
+      <img alt='techboardcz' src='http://pbs.twimg.com/profile_images/378800000534662395/bc8fab6c2561f5cef1aa80fecae23cb0_normal.png' title='techboardcz'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/Labuschin/status/445901673286750208'>
+      <img alt='Labuschin' src='http://pbs.twimg.com/profile_images/3240710711/ebebf0b6d2f739ccd67f562153b1b207_normal.jpeg' title='Labuschin'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/plancton54/status/445896872583233536'>
+      <img alt='plancton54' src='http://pbs.twimg.com/profile_images/378800000415656637/c6bd5a8d6cbf390dc8fb01ad92a1b07d_normal.png' title='plancton54'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/NicoGiordano20/status/445712408649416704'>
+      <img alt='NicoGiordano20' src='http://pbs.twimg.com/profile_images/3433574603/a7d9bff14cb1de026fec643d5ef14836_normal.jpeg' title='NicoGiordano20'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/sbetancourths/status/445651400543199233'>
+      <img alt='sbetancourths' src='http://pbs.twimg.com/profile_images/431480815692681216/Uhcv6zBZ_normal.jpeg' title='sbetancourths'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/SharpEdgeSergi/status/445208074878717952'>
+      <img alt='SharpEdgeSergi' src='http://pbs.twimg.com/profile_images/2623834985/kv7adpa62w91saavpwiw_normal.jpeg' title='SharpEdgeSergi'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/Chapman_7/status/444854635430285312'>
+      <img alt='Chapman_7' src='http://pbs.twimg.com/profile_images/417950462092918784/CH26YY9L_normal.jpeg' title='Chapman_7'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/robin4tw/status/444595879258116096'>
+      <img alt='robin4tw' src='http://pbs.twimg.com/profile_images/3170577507/e2d537c1db66a3b4cbaab7444da0ab22_normal.jpeg' title='robin4tw'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/ItsVitor/status/444329186271178752'>
+      <img alt='ItsVitor' src='http://pbs.twimg.com/profile_images/378800000642757039/9769d2b0044fb383dfc1790e06cae7c5_normal.jpeg' title='ItsVitor'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/MaxwellBaliza/status/443857147324284928'>
+      <img alt='MaxwellBaliza' src='http://pbs.twimg.com/profile_images/3308014498/039c7edcad5fe496d164398ebf9af798_normal.png' title='MaxwellBaliza'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/alexkrycek/status/443596407082336256'>
+      <img alt='alexkrycek' src='http://pbs.twimg.com/profile_images/1091078767/twitter_normal.jpg' title='alexkrycek'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/bramwingelaar/status/443489808967806976'>
+      <img alt='bramwingelaar' src='http://pbs.twimg.com/profile_images/378800000478614429/62c8f63004f14352b774eef4464aaec7_normal.jpeg' title='bramwingelaar'>
+    </a>
+  </li>
+  <li>
+    <a href='https://twitter.com/red_mosquitto/status/443284109646127104'>
+      <img alt='red_mosquitto' src='http://pbs.twimg.com/profile_images/378800000837675874/cab5677b86c7640c04fdcfd4421c805c_normal.jpeg' title='red_mosquitto'>
+    </a>
+  </li>
+</ul>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <p class="center">This campaign a <a href="https://twitter.com/labuschin">Martin Labuschin</a> production.</p>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript"> 
+      <!-- 
+      (function() { 
+          if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) { 
+              var msViewportStyle = document.createElement("style"); 
+              msViewportStyle.appendChild( 
+                  document.createTextNode("@-ms-viewport{width:auto!important}") 
+              ); 
+              document.getElementsByTagName("head")[0].appendChild(msViewportStyle); 
+          } 
+      })(); 
+      --> 
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-10768351-5', 'martinlabuschin.com');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
