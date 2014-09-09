@@ -15,7 +15,7 @@
 		body {
 			padding: 2em;
 			background: #fff;
-			font-size: 300%;
+			font-size: 280%;
 		}
 	
 		p {
@@ -43,9 +43,19 @@
 	</style>
   </head>
   <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=105027356209211&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<p>Dear Facebook users who complain about beeing forced to use <span class="messenger">Messenger</span>:</p>
 	<p>It's your fucking choice! You consciously <span class="agree">agree</span> or disagree to the permissions/terms/conditions.</p>
 	<p class="light">There never were or will be “Facebook law-enforcers” that come to your place and put you in cuffs or only leave if your agree to use Messenger.</p>
 	<p class="light">Also: If you want to stay in touch with your friends, you can use text, email, letters or choose to <em>fucking meet &amp; talk</em> to each other. </p>
+	
+	<div class="fb-like" data-href="http://martinlabuschin.com/messenger" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
   </body>
 </html>
