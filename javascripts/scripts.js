@@ -19,6 +19,7 @@ jQuery(document).ready(function(){
       return false;
     });
 
+    jQuery('.header_wrapper').delay(500).animate({ opacity: 1 }, { duration: 1000 });
     jQuery(".prologue").delay(500).animate({opacity: 1, top: 0},1000);
 
     var divs = $('h1, .jump_to_contact');
